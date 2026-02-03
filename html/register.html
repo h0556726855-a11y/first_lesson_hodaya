@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../fontawesome/fontawesome/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="..\images\header_footer\logo.jpg">
+</head>
+
+<body>
+    <main class="general_form">
+        <div class="containar">
+            <form action="../index.html">
+                <h2>הרשמה</h2>
+                <div class="button">
+                    <a id="login" class="rotate_link_for_images" href="login.html">כניסה</a>
+                    <a id="register" class="rotate_link_for_images" href="register.html">הרשמה</a>
+                </div>
+                <div class="rotate_link_for_images"><input required type="text" name="fullname" id="fullname"
+                        placeholder="שם מלא" /></div>
+                <div class="rotate_link_for_images"><input required type="tel" name="phone" id="phone" minlength="10"
+                        maxlength="13" placeholder="פלאפון" /></div>
+                <div class="rotate_link_for_images"><input required type="email" name="email" id="email"
+                        placeholder="example@gmail.com" /></div>
+                <div class="rotate_link_for_images"><input type="password" id="password" name="password" minlength="6"
+                        placeholder="סיסמה"></div>
+                <div class="rotate_link_for_images"><input type="password" id="Password_verification"
+                        name="Password_verification" minlength="6" placeholder="אימות סיסמה"></div>
+                <div class="button">
+                    <div class="rotate_link_for_images"><button type="submit">צור חשבון</button></div>
+                    <div class="rotate_link_for_images"><button type="reset">איפוס</button></div>
+                </div>
+                <span>כבר יש לך חשבון? <a href="login.html">התחבר</a></span>
+            </form>
+        </div>
+    </main>
+       <button id="accessibility-btn" aria-label="תפריט נגישות">♿</button>
+       <a href="../index.html" alt="icon" class="fa-solid fa-home" id="icon-back-to-home"></a>
+</body>
+
+</html>
